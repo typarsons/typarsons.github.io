@@ -1,60 +1,55 @@
 ﻿
 <head>
     <style>
-                ul {
-                   /* list-style-type: none;
-                    margin: 0;
-                    padding: 0;
-                    overflow: hidden;*/
-                   /* background-color: #333;*/
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 16px;
+            }
+
+                li a:hover:not(.active) {
+                    background-color: #111;
                 }
 
-                li {
-                    /*float: left;*/
-                }
-/*
-                    li a {
-                        display: block;
-                        color: white;
-                        text-align: center;
-                        padding: 14px 16px;
-                        text-decoration: none;
-                        font-size: 16px;
-                    }
+        .active {
+            background-color: #4CAF50;
+        }
 
-                        li a:hover:not(.active) {
-                            background-color: #111;
-                        }*/
-
-                .active {
-                    background-color: #4CAF50;
-                }
-
-                .main {
-                    float: left;
-                }
-
-                div {
-                    /*  float:left;
-        */
-                }
-
-                .container {
-                    margin: 10px;
-                    display: flex;
-                    /*width:500px;
-                    height:500px;*/
-                }
-
-                .p2 {
-                    font-size: 20px;
-                }
-
-                .h1 {
-                    font-size: 28px;
-                }
+        .main {
+            float: left;
+        }
+        }
+        .container {
+            margin: 10px;
+            display: flex;
+            /*width:500px;
+            height:500px;*/
+        }           
         .div {
             margin: 10px
+        }
+        .p2 {
+            font-size: 20px;
+            text-align: center;
+        }
+        .h1 {
+            font-size: 30px;
+            text-align: center;
         }
     </style>
 </head>
@@ -69,25 +64,26 @@
 
     <main role="main" class="container">
         <div class="container">
-
             <div class="jumbotron text-center col-md-6" style="width: 500px; height: 350px; background-color:floralwhite;text-align:left">
                 <h1>Skills</h1>
-                <ul>
-                    <li>SQL</li>
-                    <li>C#</li>
-                    <li>VBA</li>
-                    <li>PowerShell</li>
-                    <li>Database Managament</li>
-                </ul>
-
+                <p2 style="color:black">
+                    •Structured Query Language<br /> <br />
+                    •C#<br /> <br />
+                    •Excel<br /> <br />
+                    •PowerShell<br /> <br />
+                    •Database Management<br /> <br />
+                    •Enterprise Resource Planning Systems
+                </p2>
             </div>
             <div class="jumbotron text-center col-md-6" style="width: 500px; height: 350px; background-color:floralwhite;text-align:left">
                 <h1>Interests</h1>
-                <ul style="color:black">
-                    <li>Coffee</li>
-                    <li>Tea</li>
-                    <li>Milk</li>
-                </ul>
+                <p2 style="color:black">
+                    •Automation<br /> <br />
+                    •Instrumentation & Controls<br /> <br />
+                    •Machine Learning<br /> <br />
+                    •BlockChain<br /> <br />
+                    •Cyber Security<br /> <br />
+                </p2>
             </div>
             </div>
     </main>
